@@ -18,9 +18,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/s3"
-	"gopkg.in/amz.v1/testutil"
+	"github.com/veritone/amz/aws"
+	"github.com/veritone/amz/s3"
+	"github.com/veritone/amz/testutil"
 )
 
 // AmazonServer represents an Amazon S3 server.

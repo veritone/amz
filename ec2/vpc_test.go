@@ -13,8 +13,8 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/ec2"
+	"github.com/veritone/amz/aws"
+	"github.com/veritone/amz/ec2"
 )
 
 // VPC tests with example responses

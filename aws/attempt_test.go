@@ -10,7 +10,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/veritone/amz/aws"
 )
 
 func (S) TestAttemptTiming(c *C) {

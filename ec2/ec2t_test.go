@@ -14,10 +14,10 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/ec2"
-	"gopkg.in/amz.v1/ec2/ec2test"
-	"gopkg.in/amz.v1/testutil"
+	"github.com/veritone/amz/aws"
+	"github.com/veritone/amz/ec2"
+	"github.com/veritone/amz/ec2/ec2test"
+	"github.com/veritone/amz/testutil"
 )
 
 // LocalServer represents a local ec2test fake server.

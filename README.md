@@ -13,15 +13,15 @@ Instructions
 
 Install the package with:
 
-    go get gopkg.in/amz.v1/...
+    go get github.com/veritone/amz/...
 
 Import it with:
 
-    import "gopkg.in/amz.v1/<package>"
+    import "github.com/veritone/amz/<package>"
 
 Example:
 
-    import "gopkg.in/amz.v1/ec2"
+    import "github.com/veritone/amz/ec2"
 
 and use _ec2_ as the package name inside the code.
 The same applies to the other sub-packages: _aws_, _s3_, etc.

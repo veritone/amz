@@ -8,8 +8,8 @@ package mturk_test
 import (
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/exp/mturk"
+	"github.com/veritone/amz/aws"
+	"github.com/veritone/amz/exp/mturk"
 )
 
 // Mechanical Turk REST authentication docs: http://goo.gl/wrzfn

@@ -11,9 +11,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/iam"
-	"gopkg.in/amz.v1/testutil"
+	"github.com/veritone/amz/aws"
+	"github.com/veritone/amz/iam"
+	"github.com/veritone/amz/testutil"
 )
 
 func Test(t *testing.T) {

@@ -17,7 +17,7 @@ import (
 	"strings"
 	"sync"
 
-	"gopkg.in/amz.v1/iam"
+	"github.com/veritone/amz/iam"
 )
 
 type action struct {
